@@ -33,10 +33,9 @@ void readF() {
                 getline(fin, str);
                 cout << str << endl;
             }
+            fin.close();
         }
     }
-
-    fin.close();
 }
 
 void writeF() {
