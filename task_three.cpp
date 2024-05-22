@@ -7,7 +7,6 @@
 
 using namespace std;
 
-HANDLE sem = CreateSemaphore(NULL, 1, 1, L"xx");
 HANDLE sem1 = CreateSemaphore(NULL, 1, 1, L"sem1");
 HANDLE sem2 = CreateSemaphore(NULL, 1, 1, L"sem2");
 int user = 0;
